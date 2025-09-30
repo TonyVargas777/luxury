@@ -14,7 +14,7 @@ export function HeroSection() {
       {/* Background Image */}
       <div className="absolute inset-0 bg-gray-200">
         <Image
-          src="https://cdn.abacus.ai/images/6d51d982-cf85-4900-b8cc-07b192ae47b0.png"
+          src="images/children.png"
           alt="Luxury Fashion Hero"
           fill
           className="object-cover"
@@ -38,6 +38,7 @@ export function HeroSection() {
               <span className="block text-4xl sm:text-5xl lg:text-6xl mt-2">
                 Elegance
               </span>
+              <br />
             </h1>
             <p className="text-xl sm:text-2xl text-white/90 mb-8 max-w-2xl mx-auto">
               Discover extraordinary luxury fashion that transcends seasons and defines sophistication
@@ -49,11 +50,11 @@ export function HeroSection() {
                   <ArrowRight className="h-5 w-5" />
                 </Link>
               </Button>
-              <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-gray-900 text-lg px-8 py-6">
+              {/* <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-gray-900 text-lg px-8 py-6">
                 <Link href="/men">
                   Discover Men's
                 </Link>
-              </Button>
+              </Button> */}
             </div>
           </motion.div>
         </div>

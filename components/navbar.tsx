@@ -26,7 +26,7 @@ export function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <span className="text-2xl font-playfair font-bold text-gray-900 tracking-wide">
-              LUXÉ
+              LUXURY FASHION
             </span>
           </Link>
 
